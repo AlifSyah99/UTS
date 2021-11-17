@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Comic Sans MS", arial;
+}
+.tabel {
+  margin: 10px auto;
+  min-width: 900px;
+}
+.header {
+  height: 80px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+h1 {
+  text-align: center;
+}
+
+ul {
+  margin-left: 20px;
+}
+.tabel2 {
+  width: 100%;
+  text-align: center;
+  border:2px dotted black;
+  border-collapse: collapse;
+}
+.content {
+  padding: 10px 0;
+}
+.tabel2 td {
+  border-style: dotted;
+}
+.img {
+  padding: 10px;
+  width: 100px;
+}
+.side1,
+.side2 {
+  width: 20%;
+  border-radius: 10px;
+}
+.side1 {
+  background-color: #3cb371;
+}
+.side2 {
+  background-color: #ee82ee;
+}

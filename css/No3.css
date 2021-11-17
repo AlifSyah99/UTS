@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: yellow;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 40px;
+}
+p{
+    text-transform: uppercase;
+}
+.container{
+    margin:10px auto;
+    width: 800px;
+}
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.header img{
+    height: 90px;
+    width: 85px;
+}
+.header .title{
+    flex-basis: 70%;
+}
+.title h1{
+    text-align:center;
+    color: blue;
+}
+marquee{
+    font-size: 18px;
+    color: #000;
+    text-transform: none;
+}
+hr{
+    width: 100%;
+    background-color: black;
+}
+.content{
+    margin: 10px auto;
+    width: 600px;
+    padding:0 10px;
+}
+.content h1{
+    text-align: center;
+}
+
+.content table{
+    width:100%;
+}
+input{
+    padding:0 5px;
+}
+.content-data{
+    margin-top: 40px;
+}
+.content-data table{
+    margin: auto;
+    width: 90%;
+}
+.content-data .judul{
+    background-color: #3799DE;
+    text-align: center;
+}
